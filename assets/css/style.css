@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #b6aaaa;
+}
+
+.header {
+  padding: 20px;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 50%;
+}
+
+nav {
+  float: right;
+  margin-bottom: 15px;
+}
+
+
+a {
+  color: #03fbff;
+  text-decoration: none;
+}
+
+.About-me {
+  color:#03fbff;
+  font-size: 30px;
+}
+
+
+.My-work{
+  color:#03fbff;
+  font-size: 30px;
+}
+
+
+.Contact-me{
+  color:#03fbff;
+  font-size: 30px;
+}
+
+aside {
+  width: 25%;
+  align-items: center;
+}
+
+aside h2 {
+  font-size: 150%;
+}
+
+input, button {
+  width: 100%;
+  margin: 5% 0;
+  padding: 1%;
+}
